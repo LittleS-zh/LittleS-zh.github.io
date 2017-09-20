@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+<script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+<form>
+<div id="calculator">
+<input type="text" name="result" id="result" style="width:250px;font-size:25px;"/>
+<div id="above">
+<input type="button" value="7" name="numberSeven" onclick="numberClicked('7')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="8" name="numberEight" onclick="numberClicked('8')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="9" name="numberNine" onclick="numberClicked('9')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+</div>
+<div id="middle">
+<input type="button" value="4" name="numberFour" onclick="numberClicked('4')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="5" name="numberFive" onclick="numberClicked('5')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="6" name="numberSix" onclick="numberClicked('6')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+</div>
+<div id="bottom">
+<input type="button" value="1" name="numberOne" onclick="numberClicked('1')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="2" name="numberTwo" onclick="numberClicked('2')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="3" name="numberThree" onclick="numberClicked('3')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+</div>
+<div id="tools">
+<input type="button" value="0" name="Zero" onclick="numberClicked('0')" style="width:125px;" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="." name="point" onclick="clickPoint()" style="width:125px;" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="+" name="plusSign" onclick="operatorClicked('+')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="-" name="minusSign" onclick="operatorClicked('-')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="*" name="multipleSign" onclick="operatorClicked('*')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="/" name="divideSign" onclick="operatorClicked('/')" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="C" name="reset" onclick="clickReset()" style="width:125px;" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="=" name="equalSign" onclick="clickEqual()" style="width:125px;" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)"/>
+<input type="button" value="Sum for fun" name="sumForFun" onclick="sunForFun()" style="width:250px;" onmouseover="buttonHover(this)" onmouseout="buttonOut(this)" />
+</div>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+body{
+	text-align:center;
+}
+
+input{
+	height:50px;
+	width:50px;
+	margin:10px;
+}
+
+#calculator{
+	height:600px;
+	width:300px;
+	background-color:lightgrey;
+	margin:0 auto;
+}
